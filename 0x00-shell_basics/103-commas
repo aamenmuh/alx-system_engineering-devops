@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A  --sort=alpha | awk -v ORS=, '!/^\.{1,2}$/ {print $0, /\/$/ ? "" : "/"} END {print "\n"}'
+ls -A  -F --sort=alpha | awk -v ORS=, '!/^\.{1,2}$/ {print $0, /\/$/ ? "" : "/"} END {print "\n"}'
