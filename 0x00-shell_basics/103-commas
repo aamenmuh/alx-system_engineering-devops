@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a  -p -v --format=comma END {print "\n"}'
+ls -a  -p -v --format=comma -1l
