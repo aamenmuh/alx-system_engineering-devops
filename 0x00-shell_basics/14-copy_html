@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "*.html" -type f | xargs cp -vt -u ..
+find . -name \*.html -exec cp -u {} newDir \
