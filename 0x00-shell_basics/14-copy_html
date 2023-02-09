@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -R -u **/*.html $(pwd)/../
+find . -name "*.html" -type f | xargs cp -vt -u ..
