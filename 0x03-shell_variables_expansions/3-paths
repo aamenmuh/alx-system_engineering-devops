@@ -1,2 +1,2 @@
 #!/bin/bash
-ls $PATH | wc -type d
+echo $(ls $PATH | wc -type d)
