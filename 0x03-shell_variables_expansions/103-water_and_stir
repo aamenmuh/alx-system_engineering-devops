@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $(( $(tr water 0123456789 <<< $WATER) + $(tr stir 0123456789 <<< $STIR) )) | tr 0123456789 bestchol
+echo $((bestchol#${WATER#water} + ${STIR#stir}))
+
